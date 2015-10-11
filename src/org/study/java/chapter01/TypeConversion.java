@@ -1,6 +1,6 @@
 package org.study.java.chapter01;
 
-public class Numberic {
+public class TypeConversion {
 	public static void main(String[] args) {
 		int a = 200;
 		
@@ -8,8 +8,17 @@ public class Numberic {
  
 		float b = 200.0f;
 		
+		System.out.println(b);
 		System.out.println(Float.floatToIntBits(b));
-		System.out.println(7.0/3.0);
-
+		
+		double c = 200.0;
+		System.out.println(c);
+		
+		
+		float d = (float)200.0;
+		System.out.println(d);
+		
+		
+		
 	}
 }
