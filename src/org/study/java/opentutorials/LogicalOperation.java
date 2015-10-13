@@ -1,4 +1,4 @@
-package org.study.java.chapter01;
+package org.study.java.opentutorials;
 
 public class LogicalOperation {
 	public static void main(String[] args) {
