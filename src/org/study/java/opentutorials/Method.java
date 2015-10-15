@@ -5,6 +5,16 @@ public class Method {
 	public static void main(String[] args) {
 
 		String[] test = {"1","2","3"};
+		int[] tt = {0,1,2,3};
+		
+		System.out.println(">>"+Integer.reverse(1));
+		System.out.println(">>"+Integer.reverse(2));
+		
+		int aaa = 2;
+		
+		System.out.println("-- "+Integer.toBinaryString(aaa));
+		
+		
 		String number1 = getJoinString(test, ":");
 		System.out.println(number1);
 		//String number2 = getJoinString({"1","2","3"}, ":");
