@@ -61,8 +61,8 @@ public class PolymorphismDemo {
         SnakeMonster snake = new SnakeMonster();
         BallMonster ball = new BallMonster();
         
-        walkMonster((Monster)snake);
-        walkMonster((Monster)ball);
+        walkMonster(snake);
+        walkMonster(ball);
         
         ball.attack();
         snake.attack();
